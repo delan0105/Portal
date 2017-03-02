@@ -6,7 +6,7 @@
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-image: "background-image-for-website-16.jpg";
+    background-image: url("../pictures/background-image-for-website-16.jpg");
     background-position: center;
     background-attachment: fixed;
 }
@@ -24,7 +24,7 @@ a.active {
     display: block;
     width: 100%;
     text-align: center;
-    background: "pictures/header-image/feel_and_conquer_by_yuumei-d9ngjsi.jpg" no-repeat center center scroll;
+    background: url("../pictures/header-image/feel_and_conquer_by_yuumei-d9ngjsi.jpg") no-repeat center center scroll;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     background-size: 100% 100%;
@@ -230,7 +230,7 @@ footer {
   text-align: center;
 
 
-  background-image: url("pictures/background-image-for-website-16.jpg");
+  background-image: url("../pictures/background-image-for-website-16.jpg");
   background-attachment: fixed;
   background-position: center;
 
